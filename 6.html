@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script>
+ 
+         function sayInfo(name,age) {
+            this.name = name
+            this.age = age
+        }
+
+         sayInfo.prototype.call2 = function() {
+           console.log("name:"+this.name)
+           console.log("age:"+age) 
+        }
+        var user = new sayInfo("zxx",100)
+        console.log(user)
+        
+	</script>
+</head>
+<body>
+
+</body>
+</html>
